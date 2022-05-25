@@ -9,13 +9,13 @@ namespace ConsoleApp3
     {
         static void Main(string[] args) //komentar
         {
-            string connectionString;
-            connectionString = "Data Source=DESKTOP-9REJOVV;User ID=sa;Password=adhelinia123.tes";
+            string connectionString; 
+            connectionString = "Data Source=DESKTOP-9REJOVV;User ID=sa;Password=adhelinia123.tes"; //latihanGitHub
             SqlConnection conn;
-            conn = new SqlConnection(connectionString);
+            conn = new SqlConnection(connectionString); //tesnambahincomment
 
             MahasiswaRepository mahasiswaRepository = new MahasiswaRepository();
-
+            
             mahasiswaRepository.Connection(conn);
             //mahasiswaRepository.Insert("Nia", "Bekasi", "Informatika", conn);
             //mahasiswaRepository.Insert("Tina", "Makassar", "Ekonomi", conn);
