@@ -7,7 +7,7 @@ namespace ConsoleApp3
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) //komentar
         {
             string connectionString;
             connectionString = "Data Source=DESKTOP-9REJOVV;User ID=sa;Password=adhelinia123.tes";
